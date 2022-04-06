@@ -6,12 +6,3 @@ elements.forEach((ele) => {
         this.classList.add("active");
     });
 });
-
-const collection = document.getElementsByClassName("content-paragraph-box");
-
-console.log("collection: ", collection);
-
-collection.style.setProperty(
-    "--clientHeigght",
-    collection[0].clientHeight + "px"
-);
